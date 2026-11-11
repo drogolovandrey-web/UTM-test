@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:ns=  "http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+           xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+           xmlns:awr="http://fsrar.ru/WEGAIS/RequestAdjustmentData"
+           xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3"
+>
+  <ns:Owner>
+    <ns:FSRAR_ID>{{fsrarid}}</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:RequestAdjustmentData>
+      <awr:ClientId>{{fsrarid}}</awr:ClientId>
+      <awr:RequestNumber>{{requestNumber}}</awr:RequestNumber>
+      <awr:RequestDate>{{requestDate}}</awr:RequestDate>
+      {{#docInfo}}
+      {{#base}}
+      <awr:ProveDocs>{{electronView}}</awr:ProveDocs>
+      <awr:Content>
+        <awr:ActWO>
+          <awr:AWORegId>{{docRegId}}</awr:AWORegId>
+          {{#docNumber}}<awr:ActNumber>{{docNumber}}</awr:ActNumber>{{/docNumber}}
+          {{#docDate}}<awr:ActDate>{{docDate}}</awr:ActDate>{{/docDate}}
+      {{/base}}
+          {{#typeWriteOff}}<awr:TypeWriteOff>{{typeWriteOff}}</awr:TypeWriteOff>{{/typeWriteOff}}
+        </awr:ActWO>
+        {{/docInfo}}
+      </awr:Content>
+    </ns:RequestAdjustmentData>
+  </ns:Document>
+</ns:Documents>

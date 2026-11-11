@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:ttn4="http://fsrar.ru/WEGAIS/TTNSingle_v4"
+              xmlns:awr="http://fsrar.ru/WEGAIS/RequestAdjustmentData"
+>
+  <ns:Owner>
+    <ns:FSRAR_ID>{{fsrarid}}</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:RequestAdjustmentData>
+      <awr:ClientId>{{fsrarid}}</awr:ClientId>
+      <awr:RequestNumber>{{requestNumber}}</awr:RequestNumber>
+      <awr:RequestDate>{{requestDate}}</awr:RequestDate>
+      {{#docInfo}}
+      {{#base}}
+      <awr:ProveDocs>{{electronView}}</awr:ProveDocs>
+      <awr:Content>
+        <awr:TTN>
+          <awr:WBRegId>{{docRegId}}</awr:WBRegId>
+          {{#docNumber}}<awr:NUMBER>{{docNumber}}</awr:NUMBER>{{/docNumber}}
+          {{#docDate}}<awr:Date>{{docDate}}</awr:Date>{{/docDate}}
+      {{/base}}
+
+          {{#shippingDate}}<awr:ShippingDate>{{shippingDate}}</awr:ShippingDate>{{/shippingDate}}
+          {{#ttnType}}<awr:Type>{{ttnType}}</awr:Type>{{/ttnType}}
+
+          {{#isTransport}}
+          {{#transport}}
+          <awr:Transport>
+            <ttn4:TRAN_TYPE>{{ttnTranType}}</ttn4:TRAN_TYPE>
+            <ttn4:TRANSPORT_TYPE>{{transportType}}</ttn4:TRANSPORT_TYPE>
+            <ttn4:TRAN_LOADPOINT>{{tranLoadpoint}}</ttn4:TRAN_LOADPOINT>
+            <ttn4:TRAN_UNLOADPOINT>{{tranUnloadpoint}}</ttn4:TRAN_UNLOADPOINT>
+            {{#tranRegNumber}}<ttn4:TRANSPORT_REGNUMBER>{{tranRegNumber}}</ttn4:TRANSPORT_REGNUMBER>{{/tranRegNumber}}
+            {{#tranCompany}}<ttn4:TRAN_COMPANY>{{tranCompany}}</ttn4:TRAN_COMPANY>{{/tranCompany}}
+            {{#tranTrailer}}<ttn4:TRAN_TRAILER>{{tranTrailer}}</ttn4:TRAN_TRAILER>{{/tranTrailer}}
+            {{#tranCustomer}}<ttn4:TRAN_CUSTOMER>{{tranCustomer}}</ttn4:TRAN_CUSTOMER>{{/tranCustomer}}
+            {{#tranDriver}}<ttn4:TRAN_DRIVER>{{tranDriver}}</ttn4:TRAN_DRIVER>{{/tranDriver}}
+            {{#tranRedirect}}<ttn4:TRAN_REDIRECT>{{tranRedirect}}</ttn4:TRAN_REDIRECT>{{/tranRedirect}}
+            {{#tranForwarder}}<ttn4:TRAN_FORWARDER>{{tranForwarder}}</ttn4:TRAN_FORWARDER>{{/tranForwarder}}
+          </awr:Transport>
+          {{/transport}}
+          {{/isTransport}}
+
+        </awr:TTN>
+        {{/docInfo}}
+      </awr:Content>
+    </ns:RequestAdjustmentData>
+  </ns:Document>
+</ns:Documents>

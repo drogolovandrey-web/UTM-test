@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="51px" viewBox="0 0 75 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>SliceDocIcon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DocIcon" transform="translate(1.000000, 1.000000)" stroke-width="1.5">
+            <path d="M24.811,29.5 L53.811,29.5" id="Stroke-1" stroke="#D25851" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24.811,33.5 L50.811,33.5" id="Stroke-2" stroke="#D25851" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24.811,36.5 L52.811,36.5" id="Stroke-3" stroke="#D25851" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24.811,40.5 L54.811,40.5" id="Stroke-4" stroke="#D25851" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Stroke-7" stroke="#D25851" stroke-linecap="round" stroke-linejoin="round" points="24.811 23 36.811 23 36.811 18 24.811 18"></polygon>
+            <path d="M19.5059556,43.0281982 C19.5059556,35.9707195 19.5059556,25.3845015 19.5059556,11.2695441 C19.5059556,10.7176946 19.9595111,10.271028 20.5192333,10.271028 L48.5717889,10.271028 L60.7961222,21.9110172 L60.7961222,26.6773828 L60.7961222,43.0214844" id="Path" stroke="#1C75BB" stroke-linejoin="round"></path>
+            <path d="M14.3129611,43.03125 C14.3129611,34.9115954 14.3129611,22.7321135 14.3129611,6.4928043 C14.3129611,5.94095484 14.7665167,5.49428817 15.3255167,5.49428817 L55.6024056,5.49428817 L55.6024056,12.860686" id="Path" stroke="#1C75BB" stroke-linejoin="round"></path>
+            <path d="M8.81092778,43.0007324 C8.81092778,33.8212867 8.81092778,20.0521182 8.81092778,1.69322688 C8.81092778,1.14137742 9.26448333,0.694710753 9.82420556,0.694710753 L50.1010944,0.694710753 L50.1010944,3.20036667" id="Path" stroke="#1C75BB" stroke-linejoin="round"></path>
+            <polyline id="Stroke-14" stroke="#1C75BB" stroke-linecap="round" stroke-linejoin="round" points="48.5719333 17.4558774 48.5719333 21.8944473 60.7962667 21.8944473"></polyline>
+            <polyline id="Line" stroke="#1C75BB" stroke-linecap="round" points="0.311 48.5 63.9400635 48.5 72.6957656 48.5"></polyline>
+        </g>
+    </g>
+</svg>

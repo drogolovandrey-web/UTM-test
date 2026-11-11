@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:ns=  "http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+           xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+           xmlns:awr="http://fsrar.ru/WEGAIS/RequestAdjustmentData"
+           xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3"
+>
+  <ns:Owner>
+    <ns:FSRAR_ID>{{fsrarid}}</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:RequestAdjustmentData>
+      <awr:ClientId>{{fsrarid}}</awr:ClientId>
+      <awr:RequestNumber>{{requestNumber}}</awr:RequestNumber>
+      <awr:RequestDate>{{requestDate}}</awr:RequestDate>
+      {{#docInfo}}
+      {{#base}}
+      <awr:ProveDocs>{{electronView}}</awr:ProveDocs>
+      <awr:Content>
+        <awr:ReportImported>
+          <awr:RegId>{{docRegId}}</awr:RegId>
+          {{#docNumber}}<awr:NUMBER>{{docNumber}}</awr:NUMBER>{{/docNumber}}
+          {{#docDate}}<awr:Date>{{docDate}}</awr:Date>{{/docDate}}
+      {{/base}}
+          {{#importedDate}}<awr:ImportedDate>{{importedDate}}</awr:ImportedDate>{{/importedDate}}
+          {{#supplierOwnerid}}<awr:supplierOwnerid>{{supplierOwnerid}}</awr:supplierOwnerid>{{/supplierOwnerid}}
+          {{#gtdNumber}}<awr:GTDNUMBER>{{gtdNumber}}</awr:GTDNUMBER>{{/gtdNumber}}
+          {{#gtdDate}}<awr:GTDDate>{{gtdDate}}</awr:GTDDate>{{/gtdDate}}
+          {{#country}}<awr:Country>{{country}}</awr:Country>{{/country}}
+        </awr:ReportImported>
+        {{/docInfo}}
+      </awr:Content>
+    </ns:RequestAdjustmentData>
+  </ns:Document>
+</ns:Documents>

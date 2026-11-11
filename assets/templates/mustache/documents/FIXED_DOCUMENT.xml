@@ -1,0 +1,20 @@
+<wb:Documents Version="1.0"
+              xmlns:wb="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:req10="http://fsrar.ru/WEGAIS/RequestInfo">
+  <wb:Owner>
+    <wb:FSRAR_ID>{{fsrarid}}</wb:FSRAR_ID>
+  </wb:Owner>
+  <wb:Document>
+    <wb:RequestInfo>
+      <req10:ClientId>{{fsrarid}}</req10:ClientId>
+      <req10:RequestNumber>{{requestNumber}}</req10:RequestNumber>
+      <req10:RequestDate>{{requestDate}}</req10:RequestDate>
+      <req10:Content>
+        <req10:RegisteredDoc>
+          <req10:WBRegId>{{docRegId}}</req10:WBRegId>
+          <req10:DocType>{{type}}</req10:DocType>
+        </req10:RegisteredDoc>
+      </req10:Content>
+    </wb:RequestInfo>
+  </wb:Document>
+</wb:Documents>

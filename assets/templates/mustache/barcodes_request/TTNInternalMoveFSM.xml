@@ -1,0 +1,44 @@
+<ns:Documents xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3"
+              xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2"
+              xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+              xmlns:movefsm="http://fsrar.ru/WEGAIS/TTNInternalMoveFSM"
+              xmlns:unqualified_element="http://fsrar.ru/WEGAIS/CommonEnum"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns:Owner>
+    <ns:FSRAR_ID>{{fsrarid}}</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:TTNInternalMoveFSM>
+      <movefsm:Header>
+       <movefsm:NUMBER>{{claimNumber}}</movefsm:NUMBER>
+        <movefsm:Date>{{claimDate}}</movefsm:Date>
+        <movefsm:Sender>
+             <oref:ClientRegId>{{owner_ID}}</oref:ClientRegId>
+            <oref:FullName>{{full_Name}}</oref:FullName>
+            <oref:INN>{{inn}}</oref:INN>
+            <oref:KPP>{{sender.kppOP}}</oref:KPP>
+            <oref:address>
+              <oref:Country>{{sender.country_Code}}</oref:Country>
+             <oref:RegionCode>{{sender.region_Code}}</oref:RegionCode>
+              <oref:description>{{sender.fact_Address}}</oref:description>
+            </oref:address>
+        </movefsm:Sender>
+
+        <movefsm:Consignee>
+             <oref:ClientRegId>{{fsrarid}}</oref:ClientRegId>
+            <oref:FullName>{{full_Name}}</oref:FullName>
+            <oref:INN>{{inn}}</oref:INN>
+            <oref:KPP>{{consignee.kpp}}</oref:KPP>
+            <oref:address>
+              <oref:Country>{{consignee.country_Code}}</oref:Country>
+             <oref:RegionCode>{{consignee.region_Code}}</oref:RegionCode>
+              <oref:description>{{consignee.fact_Address}}</oref:description>
+            </oref:address>
+        </movefsm:Consignee>
+      </movefsm:Header>
+
+    </ns:TTNInternalMoveFSM>
+  </ns:Document>
+</ns:Documents>

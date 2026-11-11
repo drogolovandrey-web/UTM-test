@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="118px" viewBox="0 0 173 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>sign</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Vidgets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sign" transform="translate(0.000000, 1.000000)" stroke-width="2">
+            <g id="Qr" transform="translate(2.000000, 0.000000)" stroke="#D25851">
+                <polyline id="Path" stroke-linejoin="round" points="30 0 40 0 40 10"></polyline>
+                <polyline id="Path-Copy-2" stroke-linejoin="round" transform="translate(5.000000, 35.000000) rotate(-180.000000) translate(-5.000000, -35.000000) " points="7.90478794e-14 30 10 30 10 40"></polyline>
+                <polyline id="Path-Copy" stroke-linejoin="round" transform="translate(5.000000, 5.000000) rotate(-90.000000) translate(-5.000000, -5.000000) " points="-3.46389584e-14 0 10 0 10 10"></polyline>
+                <polyline id="Path-Copy-3" stroke-linejoin="round" transform="translate(35.000000, 35.000000) rotate(-270.000000) translate(-35.000000, -35.000000) " points="30 30 40 30 40 40"></polyline>
+                <rect id="Rectangle" x="5" y="5" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-3" x="5" y="29" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-2" x="29" y="5" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-4" x="29" y="29" width="6" height="6"></rect>
+                <path d="M4,15.5 L15,15.5" id="Path-2"></path>
+                <polyline id="Path-2-Copy-8" points="12 26 17 26 17 36"></polyline>
+                <polyline id="Path-2-Copy-11" points="4 24.5 6.5441197 24.5 9 24.5"></polyline>
+                <polyline id="Path-2-Copy-12" points="20 26.5 23.5617676 26.5 27 26.5"></polyline>
+                <polyline id="Path-2-Copy-14" transform="translate(21.996652, 33.500000) rotate(-270.000000) translate(-21.996652, -33.500000) " points="24.4966518 31.5033482 19.4966518 31.5033482 19.4966518 35.4966518"></polyline>
+                <path d="M4,20.5 L6,20.5" id="Path-2-Copy-3"></path>
+                <path d="M13,32.5 L15,32.5" id="Path-2-Copy-9"></path>
+                <path d="M24,20.5 L27,20.5" id="Path-2-Copy-5"></path>
+                <path d="M29,24.5 L32,24.5" id="Path-2-Copy-7"></path>
+                <polyline id="Path-2-Copy-13" points="34 27 34 24.5 36 24.5"></polyline>
+                <path d="M29,20.5 L36,20.5" id="Path-2-Copy-6"></path>
+                <polyline id="Path-2-Copy-4" points="8 20.5 21 20.5 21 23"></polyline>
+                <polyline id="Path-2-Copy" points="15 4 15 8.99584961 19 8.99584961 19 15.5 28.003418 15.5"></polyline>
+                <path d="M30,15.5 L36,15.5" id="Path-2-Copy-2"></path>
+                <polyline id="Path-3" points="25 4 25 11.0056152 22 11.0056152"></polyline>
+            </g>
+            <g id="Qr-Copy" transform="translate(132.000000, 50.000000)" stroke="#D25851">
+                <polyline id="Path" stroke-linejoin="round" points="30 0 40 0 40 10"></polyline>
+                <polyline id="Path-Copy-2" stroke-linejoin="round" transform="translate(5.000000, 35.000000) rotate(-180.000000) translate(-5.000000, -35.000000) " points="7.90478794e-14 30 10 30 10 40"></polyline>
+                <polyline id="Path-Copy" stroke-linejoin="round" transform="translate(5.000000, 5.000000) rotate(-90.000000) translate(-5.000000, -5.000000) " points="-3.46389584e-14 0 10 0 10 10"></polyline>
+                <polyline id="Path-Copy-3" stroke-linejoin="round" transform="translate(35.000000, 35.000000) rotate(-270.000000) translate(-35.000000, -35.000000) " points="30 30 40 30 40 40"></polyline>
+                <rect id="Rectangle" x="5" y="5" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-3" x="5" y="29" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-2" x="29" y="5" width="6" height="6"></rect>
+                <rect id="Rectangle-Copy-4" x="29" y="29" width="6" height="6"></rect>
+                <path d="M4,15.5 L15,15.5" id="Path-2"></path>
+                <polyline id="Path-2-Copy-8" points="12 26 17 26 17 36"></polyline>
+                <polyline id="Path-2-Copy-11" points="4 24.5 6.5441197 24.5 9 24.5"></polyline>
+                <polyline id="Path-2-Copy-12" points="20 26.5 23.5617676 26.5 27 26.5"></polyline>
+                <polyline id="Path-2-Copy-14" transform="translate(21.996652, 33.500000) rotate(-270.000000) translate(-21.996652, -33.500000) " points="24.4966518 31.5033482 19.4966518 31.5033482 19.4966518 35.4966518"></polyline>
+                <path d="M4,20.5 L6,20.5" id="Path-2-Copy-3"></path>
+                <path d="M13,32.5 L15,32.5" id="Path-2-Copy-9"></path>
+                <path d="M24,20.5 L27,20.5" id="Path-2-Copy-5"></path>
+                <path d="M29,24.5 L32,24.5" id="Path-2-Copy-7"></path>
+                <polyline id="Path-2-Copy-13" points="34 27 34 24.5 36 24.5"></polyline>
+                <path d="M29,20.5 L36,20.5" id="Path-2-Copy-6"></path>
+                <polyline id="Path-2-Copy-4" points="8 20.5 21 20.5 21 23"></polyline>
+                <polyline id="Path-2-Copy" points="15 4 15 8.99584961 19 8.99584961 19 15.5 28.003418 15.5"></polyline>
+                <path d="M30,15.5 L36,15.5" id="Path-2-Copy-2"></path>
+                <polyline id="Path-3" points="25 4 25 11.0056152 22 11.0056152"></polyline>
+            </g>
+            <circle id="Oval-Copy" stroke="#D25851" cx="65" cy="45" r="3"></circle>
+            <circle id="Oval-Copy-5" stroke="#D25851" cx="126" cy="18" r="3"></circle>
+            <path d="M65,37 C65,27.6111593 57.3888407,20 48,20" id="Path" stroke="#1C75BB" stroke-linecap="round"></path>
+            <path d="M18,89 C18,79.6111593 10.3888407,72 1,72" id="Path-Copy-7" stroke="#1C75BB" transform="translate(9.500000, 80.500000) scale(-1, 1) translate(-9.500000, -80.500000) "></path>
+            <path d="M114,35 C114,25.6111593 106.388841,18 97,18" id="Path-Copy-9" stroke="#1C75BB" transform="translate(105.500000, 26.500000) scale(-1, 1) translate(-105.500000, -26.500000) "></path>
+            <path d="M153,35 C153,25.6111593 145.388841,18 136,18" id="Path-Copy-4" stroke="#1C75BB" transform="translate(144.500000, 26.500000) scale(-1, -1) rotate(-180.000000) translate(-144.500000, -26.500000) "></path>
+            <path d="M65,72 C65,62.6111593 57.3888407,55 48,55" id="Path-Copy-5" stroke="#1C75BB" transform="translate(56.500000, 63.500000) rotate(-270.000000) translate(-56.500000, -63.500000) "></path>
+            <path d="M97,113 C97,103.611159 89.3888407,96 80,96" id="Path-Copy-8" stroke="#1C75BB" transform="translate(88.500000, 104.500000) rotate(-270.000000) translate(-88.500000, -104.500000) "></path>
+            <path d="M18,113 C18,103.611159 10.3888407,96 1,96" id="Path-Copy-6" stroke="#1C75BB" transform="translate(9.500000, 104.500000) rotate(-180.000000) translate(-9.500000, -104.500000) "></path>
+            <circle id="Oval-Copy-2" stroke="#D25851" cx="27" cy="72" r="3"></circle>
+            <circle id="Oval-Copy-3" stroke="#D25851" cx="44" cy="113" r="3"></circle>
+            <circle id="Oval-Copy-4" stroke="#D25851" cx="97" cy="77" r="3"></circle>
+            <path d="M34,72 L47.8496094,72" id="Line-2" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M18,72 L20,72" id="Line-2-Copy-8" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M114,18 L119,18" id="Line-2-Copy-5" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M133,18 L135,18" id="Line-2-Copy-11" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M18,113 L37,113" id="Line-2-Copy-3" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M51,113 L80,113" id="Line-2-Copy-9" stroke="#1C75BB" stroke-linecap="square"></path>
+            <path d="M64,53 L66,53" id="Line-2-Copy" stroke="#1C75BB" stroke-linecap="square" transform="translate(65.000000, 53.000000) rotate(-270.000000) translate(-65.000000, -53.000000) "></path>
+            <path d="M64,38 L65,38" id="Line-2-Copy-7" stroke="#1C75BB" stroke-linecap="square" transform="translate(65.000000, 38.000000) rotate(-270.000000) translate(-65.000000, -38.000000) "></path>
+            <path d="M149,39 L157,39" id="Line-2-Copy-6" stroke="#1C75BB" stroke-linecap="round" transform="translate(153.000000, 39.000000) rotate(-270.000000) translate(-153.000000, -39.000000) "></path>
+            <path d="M91.5,89.5 L102.5,89.5" id="Line-2-Copy-4" stroke="#1C75BB" stroke-linecap="square" transform="translate(97.000000, 89.500000) rotate(-270.000000) translate(-97.000000, -89.500000) "></path>
+            <path d="M80.3317057,52.5 L114.5,52.5" id="Line-2-Copy-10" stroke="#1C75BB" stroke-linecap="square" transform="translate(97.000000, 52.500000) rotate(-270.000000) translate(-97.000000, -52.500000) "></path>
+            <path d="M-2.5,93 L4,93" id="Line-2-Copy-2" stroke="#1C75BB" stroke-linecap="square" transform="translate(1.000000, 93.000000) rotate(-270.000000) translate(-1.000000, -93.000000) "></path>
+        </g>
+    </g>
+</svg>

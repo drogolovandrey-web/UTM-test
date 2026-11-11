@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:ns=  "http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+           xmlns:awr="http://fsrar.ru/WEGAIS/RequestAdjustmentData"
+>
+  <ns:Owner>
+    <ns:FSRAR_ID>{{fsrarid}}</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:RequestAdjustmentData>
+      <awr:ClientId>{{fsrarid}}</awr:ClientId>
+      <awr:RequestNumber>{{requestNumber}}</awr:RequestNumber>
+      <awr:RequestDate>{{requestDate}}</awr:RequestDate>
+      {{#docInfo}}
+      {{#base}}
+      <awr:ProveDocs>{{electronView}}</awr:ProveDocs>
+      <awr:Content>
+        <awr:Route>
+          <awr:RegId>{{docRegId}}</awr:RegId>
+          <awr:Date>{{docDate}}</awr:Date>
+      {{/base}}
+      {{#transport}}
+          <awr:TRAN_TYPE>{{routeTranType}}</awr:TRAN_TYPE>
+          <awr:TRAN_CAR>{{tranCar}}</awr:TRAN_CAR>
+          <awr:TRAN_LOADPOINT>{{tranLoadpoint}}</awr:TRAN_LOADPOINT>
+          <awr:TRAN_UNLOADPOINT>{{tranUnloadpoint}}</awr:TRAN_UNLOADPOINT>
+          {{#tranCompany}}<awr:TRAN_COMPANY>{{tranCompany}}</awr:TRAN_COMPANY>{{/tranCompany}}
+          {{#tranTrailer}}<awr:TRAN_TRAILER>{{tranTrailer}}</awr:TRAN_TRAILER>{{/tranTrailer}}
+          {{#tranCustomer}}<awr:TRAN_CUSTOMER>{{tranCustomer}}</awr:TRAN_CUSTOMER>{{/tranCustomer}}
+          {{#tranDriver}}<awr:TRAN_DRIVER>{{tranDriver}}</awr:TRAN_DRIVER>{{/tranDriver}}
+          {{#tranRedirect}}<awr:TRAN_REDIRECT>{{tranRedirect}}</awr:TRAN_REDIRECT>{{/tranRedirect}}
+          {{#tranForwarder}}<awr:TRAN_FORWARDER>{{tranForwarder}}</awr:TRAN_FORWARDER>{{/tranForwarder}}
+      {{/transport}}
+        </awr:Route>
+      {{/docInfo}}
+      </awr:Content>
+    </ns:RequestAdjustmentData>
+  </ns:Document>
+</ns:Documents>

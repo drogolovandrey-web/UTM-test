@@ -1,0 +1,16 @@
+<wb:Documents Version="1.0" xmlns:wb="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+              xmlns:lic="http://fsrar.ru/WEGAIS/LicenseActConfirm">
+    <wb:Owner>
+        <wb:FSRAR_ID>{{fsrarId}}</wb:FSRAR_ID>
+    </wb:Owner>
+    <wb:Document>
+        <wb:LicenseActConfirm>
+            <lic:Header>
+                <lic:ActNumber>{{actNumber}}</lic:ActNumber>
+                <lic:ActDate>{{actDate}}</lic:ActDate>
+                <lic:Decision>{{decision}}</lic:Decision>
+                <lic:Comment>{{comment}}</lic:Comment>
+            </lic:Header>
+        </wb:LicenseActConfirm>
+    </wb:Document>
+</wb:Documents>
